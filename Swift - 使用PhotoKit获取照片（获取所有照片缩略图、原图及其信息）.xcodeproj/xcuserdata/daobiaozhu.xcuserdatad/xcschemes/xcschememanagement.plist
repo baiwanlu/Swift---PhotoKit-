@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F51F6ABB1D825F490027D9FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F51F6ACF1D825F490027D9FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F51F6ADA1D825F490027D9FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

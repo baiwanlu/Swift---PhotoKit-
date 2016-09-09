@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51F6AC01D825F490027D9FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6ABF1D825F490027D9FB /* AppDelegate.swift */; };
+		F51F6AC21D825F490027D9FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6AC11D825F490027D9FB /* ViewController.swift */; };
+		F51F6AC71D825F490027D9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51F6AC61D825F490027D9FB /* Assets.xcassets */; };
+		F51F6ACA1D825F490027D9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51F6AC81D825F490027D9FB /* LaunchScreen.storyboard */; };
+		F51F6AD51D825F490027D9FB /* Swift_____PhotoKit______________________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6AD41D825F490027D9FB /* Swift_____PhotoKit______________________Tests.swift */; };
+		F51F6AE01D825F490027D9FB /* Swift_____PhotoKit______________________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6ADF1D825F490027D9FB /* Swift_____PhotoKit______________________UITests.swift */; };
+		F51F6AF01D825FD80027D9FB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6AEF1D825FD80027D9FB /* CollectionViewController.swift */; };
+		F51F6AF21D825FFA0027D9FB /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F6AF11D825FFA0027D9FB /* ImageDetailViewController.swift */; };
+		F51F6AF41D8288D00027D9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51F6AF31D8288D00027D9FB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51F6AD11D825F490027D9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51F6AB41D825F490027D9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51F6ABB1D825F490027D9FB;
+			remoteInfo = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+		};
+		F51F6ADC1D825F490027D9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51F6AB41D825F490027D9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51F6ABB1D825F490027D9FB;
+			remoteInfo = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51F6ABC1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F6ABF1D825F490027D9FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F51F6AC11D825F490027D9FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F51F6AC61D825F490027D9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51F6AC91D825F490027D9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51F6ACB1D825F490027D9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51F6AD01D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F6AD41D825F490027D9FB /* Swift_____PhotoKit______________________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____PhotoKit______________________Tests.swift"; sourceTree = "<group>"; };
+		F51F6AD61D825F490027D9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51F6ADB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F6ADF1D825F490027D9FB /* Swift_____PhotoKit______________________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____PhotoKit______________________UITests.swift"; sourceTree = "<group>"; };
+		F51F6AE11D825F490027D9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51F6AEF1D825FD80027D9FB /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F51F6AF11D825FFA0027D9FB /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		F51F6AF31D8288D00027D9FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51F6AB91D825F490027D9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6ACD1D825F490027D9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6AD81D825F490027D9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51F6AB31D825F490027D9FB = {
+			isa = PBXGroup;
+			children = (
+				F51F6ABE1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */,
+				F51F6AD31D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests */,
+				F51F6ADE1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests */,
+				F51F6ABD1D825F490027D9FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51F6ABD1D825F490027D9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51F6ABC1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app */,
+				F51F6AD01D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests.xctest */,
+				F51F6ADB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51F6ABE1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */ = {
+			isa = PBXGroup;
+			children = (
+				F51F6ABF1D825F490027D9FB /* AppDelegate.swift */,
+				F51F6AC11D825F490027D9FB /* ViewController.swift */,
+				F51F6AF31D8288D00027D9FB /* Main.storyboard */,
+				F51F6AC61D825F490027D9FB /* Assets.xcassets */,
+				F51F6AC81D825F490027D9FB /* LaunchScreen.storyboard */,
+				F51F6AEF1D825FD80027D9FB /* CollectionViewController.swift */,
+				F51F6AF11D825FFA0027D9FB /* ImageDetailViewController.swift */,
+				F51F6ACB1D825F490027D9FB /* Info.plist */,
+			);
+			path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			sourceTree = "<group>";
+		};
+		F51F6AD31D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F51F6AD41D825F490027D9FB /* Swift_____PhotoKit______________________Tests.swift */,
+				F51F6AD61D825F490027D9FB /* Info.plist */,
+			);
+			path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests";
+			sourceTree = "<group>";
+		};
+		F51F6ADE1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F51F6ADF1D825F490027D9FB /* Swift_____PhotoKit______________________UITests.swift */,
+				F51F6AE11D825F490027D9FB /* Info.plist */,
+			);
+			path = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51F6ABB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51F6AE41D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）" */;
+			buildPhases = (
+				F51F6AB81D825F490027D9FB /* Sources */,
+				F51F6AB91D825F490027D9FB /* Frameworks */,
+				F51F6ABA1D825F490027D9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			productName = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			productReference = F51F6ABC1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51F6ACF1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51F6AE71D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests" */;
+			buildPhases = (
+				F51F6ACC1D825F490027D9FB /* Sources */,
+				F51F6ACD1D825F490027D9FB /* Frameworks */,
+				F51F6ACE1D825F490027D9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51F6AD21D825F490027D9FB /* PBXTargetDependency */,
+			);
+			name = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests";
+			productName = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests";
+			productReference = F51F6AD01D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F51F6ADA1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51F6AEA1D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests" */;
+			buildPhases = (
+				F51F6AD71D825F490027D9FB /* Sources */,
+				F51F6AD81D825F490027D9FB /* Frameworks */,
+				F51F6AD91D825F490027D9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51F6ADD1D825F490027D9FB /* PBXTargetDependency */,
+			);
+			name = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests";
+			productName = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests";
+			productReference = F51F6ADB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51F6AB41D825F490027D9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "道标朱";
+				TargetAttributes = {
+					F51F6ABB1D825F490027D9FB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F51F6ACF1D825F490027D9FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F51F6ABB1D825F490027D9FB;
+					};
+					F51F6ADA1D825F490027D9FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F51F6ABB1D825F490027D9FB;
+					};
+				};
+			};
+			buildConfigurationList = F51F6AB71D825F490027D9FB /* Build configuration list for PBXProject "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51F6AB31D825F490027D9FB;
+			productRefGroup = F51F6ABD1D825F490027D9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51F6ABB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */,
+				F51F6ACF1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests */,
+				F51F6ADA1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51F6ABA1D825F490027D9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F6AF41D8288D00027D9FB /* Main.storyboard in Resources */,
+				F51F6ACA1D825F490027D9FB /* LaunchScreen.storyboard in Resources */,
+				F51F6AC71D825F490027D9FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6ACE1D825F490027D9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6AD91D825F490027D9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51F6AB81D825F490027D9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F6AF01D825FD80027D9FB /* CollectionViewController.swift in Sources */,
+				F51F6AC21D825F490027D9FB /* ViewController.swift in Sources */,
+				F51F6AC01D825F490027D9FB /* AppDelegate.swift in Sources */,
+				F51F6AF21D825FFA0027D9FB /* ImageDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6ACC1D825F490027D9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F6AD51D825F490027D9FB /* Swift_____PhotoKit______________________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F6AD71D825F490027D9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F6AE01D825F490027D9FB /* Swift_____PhotoKit______________________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F51F6AD21D825F490027D9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51F6ABB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */;
+			targetProxy = F51F6AD11D825F490027D9FB /* PBXContainerItemProxy */;
+		};
+		F51F6ADD1D825F490027D9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51F6ABB1D825F490027D9FB /* Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息） */;
+			targetProxy = F51F6ADC1D825F490027D9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F51F6AC81D825F490027D9FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51F6AC91D825F490027D9FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51F6AE21D825F490027D9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F51F6AE31D825F490027D9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51F6AE51D825F490027D9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F51F6AE61D825F490027D9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F51F6AE81D825F490027D9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app/Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			};
+			name = Debug;
+		};
+		F51F6AE91D825F490027D9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）.app/Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			};
+			name = Release;
+		};
+		F51F6AEB1D825F490027D9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			};
+			name = Debug;
+		};
+		F51F6AEC1D825F490027D9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----PhotoKit----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51F6AB71D825F490027D9FB /* Build configuration list for PBXProject "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F6AE21D825F490027D9FB /* Debug */,
+				F51F6AE31D825F490027D9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51F6AE41D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F6AE51D825F490027D9FB /* Debug */,
+				F51F6AE61D825F490027D9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51F6AE71D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F6AE81D825F490027D9FB /* Debug */,
+				F51F6AE91D825F490027D9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51F6AEA1D825F490027D9FB /* Build configuration list for PBXNativeTarget "Swift - 使用PhotoKit获取照片（获取所有照片缩略图、原图及其信息）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F6AEB1D825F490027D9FB /* Debug */,
+				F51F6AEC1D825F490027D9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51F6AB41D825F490027D9FB /* Project object */;
+}
